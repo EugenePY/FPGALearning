@@ -3,7 +3,7 @@ FPGALearning
 
 Testing some algorithm on the FPGA
 --
-Just for fun....
+Just for Fun!
 
 Target algorithm
 --
@@ -15,6 +15,7 @@ Resources
 1. [Golden System Reference Design](https://rocketboards.org/foswiki/Documentation/GSRD141)
 2. [AJBLANE's hackpad](https://gpgpu_for_fun.hackpad.com/Linux-Runs-on-the-SoCKit-Board-with-the-GPGPU-WuM7gNp1lh9)
 3. [OpenCL Mandelbrot Demo on Atlas-SoC](https://rocketboards.org/foswiki/view/Projects/OpenCLMandelbrotDemoOnAtlasSoC)
+4. [Embeded System Beginner Guide](https://rocketboards.org/foswiki/view/Documentation/EmbeddedLinuxBeginnerSGuide)
 
 Ideas
 --
@@ -24,3 +25,4 @@ Ideas
 Hardware
 --
 1. DE0-Nano-SoC Kit/Atlas-SoC Kit
+
