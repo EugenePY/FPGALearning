@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdevice.a  CMakeFiles/device.dir/opencl.cpp.o
+/usr/bin/ranlib libdevice.a

@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/unit_tests.dir/tests.cpp.o  -o unit_tests -rdynamic ../device/libdevice.a 

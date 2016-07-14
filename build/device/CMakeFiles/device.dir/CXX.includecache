@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../device/include/aocl_utils.h
+
+/home/eugene/project/b-dnn/device/opencl.cpp
+aocl_utils.h
+/home/eugene/project/b-dnn/device/aocl_utils.h
+algorithm
+-
+stdarg.h
+-
+windows.h
+-
+stdio.h
+-
+unistd.h
+-
+
