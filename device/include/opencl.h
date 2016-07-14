@@ -29,7 +29,12 @@
 #include <stdlib.h>
 #include <string>
 
-#include "CL/opencl.h"
+#if defined(__APPLE__) || defined(__MACOSX)
+  #include <OpenCL/opencl.h>
+#else
+  #include <CL/opencl.h>
+#endif
+
 
 // This is assumed to be externally provided by the application.
 extern void cleanup();

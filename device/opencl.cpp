@@ -23,11 +23,12 @@
 #include <algorithm>
 #include <stdarg.h>
 
-#ifdef _WIN32 // Windows
-#include <windows.h>
-#else         // Linux
 #include <stdio.h> 
 #include <unistd.h> // readlink, chdir
+
+#if defined(__APPLE__) || defined(__MACOSX)
+  #include <mach/clock.h>
+  #include <mach/mach.h>
 #endif
 
 namespace aocl_utils {
@@ -559,11 +560,21 @@ double getCurrentTimestamp() {
 
   double seconds = double(counter.QuadPart) / double(ticks_per_second.QuadPart);
   return seconds;
-#else         // Linux
-  timespec a;
-  clock_gettime(CLOCK_MONOTONIC, &a);
-  return (double(a.tv_nsec) * 1.0e-9) + double(a.tv_sec);
+#elif __linux__         // Linux
+  timespec ts;
+  clock_gettime(CLOCK_MONOTONIC, &ts);
+#else
+  timespec ts;
+  clock_serv_t cclock;
+  mach_timespec_t mts;
+  host_get_clock_service(mach_host_self(), CALENDAR_CLOCK, &cclock);
+  clock_get_time(cclock, &mts);
+  mach_port_deallocate(mach_task_self(), cclock);
+  ts.tv_sec = mts.tv_sec;
+  ts.tv_nsec = mts.tv_nsec;
 #endif
+
+  return (double(ts.tv_nsec) * 1.0e-9) + double(ts.tv_sec);
 }
 
 cl_ulong getStartEndTime(cl_event event) {

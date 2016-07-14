@@ -1,0 +1,4 @@
+/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/build/EasyCL/src/EasyCL-external-build/CMakeFiles/gpuinfo.dir
+/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/build/EasyCL/src/EasyCL-external-build/CMakeFiles/EasyCL.dir
+/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/build/EasyCL/src/EasyCL-external-build/CMakeFiles/clew_delete_stamp.dir
+/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/build/EasyCL/src/EasyCL-external-build/CMakeFiles/clew-external.dir

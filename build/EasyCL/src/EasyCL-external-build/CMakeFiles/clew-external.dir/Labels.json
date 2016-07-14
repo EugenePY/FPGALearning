@@ -1,0 +1,51 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/build/EasyCL/src/EasyCL-external-build/CMakeFiles/clew-external"
+		},
+		
+		{
+			"file" : "/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/build/EasyCL/src/EasyCL-external-build/CMakeFiles/clew-external.rule"
+		},
+		
+		{
+			"file" : "/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/build/EasyCL/src/EasyCL-external-build/CMakeFiles/clew-external-complete.rule"
+		},
+		
+		{
+			"file" : "/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/build/EasyCL/src/EasyCL-external-build/clew/stamp/clew-external-install.rule"
+		},
+		
+		{
+			"file" : "/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/build/EasyCL/src/EasyCL-external-build/clew/stamp/clew-external-mkdir.rule"
+		},
+		
+		{
+			"file" : "/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/build/EasyCL/src/EasyCL-external-build/clew/stamp/clew-external-download.rule"
+		},
+		
+		{
+			"file" : "/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/build/EasyCL/src/EasyCL-external-build/clew/stamp/clew-external-update.rule"
+		},
+		
+		{
+			"file" : "/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/build/EasyCL/src/EasyCL-external-build/clew/stamp/clew-external-patch.rule"
+		},
+		
+		{
+			"file" : "/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/build/EasyCL/src/EasyCL-external-build/clew/stamp/clew-external-configure.rule"
+		},
+		
+		{
+			"file" : "/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/build/EasyCL/src/EasyCL-external-build/clew/stamp/clew-external-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "clew-external" ],
+		"name" : "clew-external"
+	}
+}

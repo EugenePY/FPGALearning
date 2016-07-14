@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/test/tests.cpp
+OpenCL/cl.h
+/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/test/OpenCL/cl.h
+CL/cl.h
+/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/test/CL/cl.h
+

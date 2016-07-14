@@ -1,0 +1,51 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/build/CMakeFiles/EasyCL-external"
+		},
+		
+		{
+			"file" : "/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/build/CMakeFiles/EasyCL-external.rule"
+		},
+		
+		{
+			"file" : "/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/build/CMakeFiles/EasyCL-external-complete.rule"
+		},
+		
+		{
+			"file" : "/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/build/EasyCL/stamp/EasyCL-external-install.rule"
+		},
+		
+		{
+			"file" : "/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/build/EasyCL/stamp/EasyCL-external-mkdir.rule"
+		},
+		
+		{
+			"file" : "/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/build/EasyCL/stamp/EasyCL-external-download.rule"
+		},
+		
+		{
+			"file" : "/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/build/EasyCL/stamp/EasyCL-external-update.rule"
+		},
+		
+		{
+			"file" : "/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/build/EasyCL/stamp/EasyCL-external-patch.rule"
+		},
+		
+		{
+			"file" : "/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/build/EasyCL/stamp/EasyCL-external-configure.rule"
+		},
+		
+		{
+			"file" : "/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/build/EasyCL/stamp/EasyCL-external-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "EasyCL-external" ],
+		"name" : "EasyCL-external"
+	}
+}

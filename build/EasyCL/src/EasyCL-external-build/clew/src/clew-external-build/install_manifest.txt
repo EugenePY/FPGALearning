@@ -1,0 +1,4 @@
+/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/dist/lib/libclew.1.0.0.dylib
+/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/dist/lib/libclew.1.dylib
+/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/dist/lib/libclew.dylib
+/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/dist/include/clew.h
