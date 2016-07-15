@@ -4,19 +4,19 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/CLKernel.cpp" "/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/build/EasyCL/src/EasyCL-external-build/CMakeFiles/EasyCL.dir/CLKernel.cpp.o"
-  "/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/CLWrapper.cpp" "/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/build/EasyCL/src/EasyCL-external-build/CMakeFiles/EasyCL.dir/CLWrapper.cpp.o"
-  "/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/DeviceInfo.cpp" "/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/build/EasyCL/src/EasyCL-external-build/CMakeFiles/EasyCL.dir/DeviceInfo.cpp.o"
-  "/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/DevicesInfo.cpp" "/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/build/EasyCL/src/EasyCL-external-build/CMakeFiles/EasyCL.dir/DevicesInfo.cpp.o"
-  "/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/EasyCL.cpp" "/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/build/EasyCL/src/EasyCL-external-build/CMakeFiles/EasyCL.dir/EasyCL.cpp.o"
-  "/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/deviceinfo_helper.cpp" "/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/build/EasyCL/src/EasyCL-external-build/CMakeFiles/EasyCL.dir/deviceinfo_helper.cpp.o"
-  "/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/platforminfo_helper.cpp" "/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/build/EasyCL/src/EasyCL-external-build/CMakeFiles/EasyCL.dir/platforminfo_helper.cpp.o"
-  "/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/templates/LuaTemplater.cpp" "/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/build/EasyCL/src/EasyCL-external-build/CMakeFiles/EasyCL.dir/templates/LuaTemplater.cpp.o"
-  "/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/templates/TemplatedKernel.cpp" "/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/build/EasyCL/src/EasyCL-external-build/CMakeFiles/EasyCL.dir/templates/TemplatedKernel.cpp.o"
-  "/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/util/StatefulTimer.cpp" "/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/build/EasyCL/src/EasyCL-external-build/CMakeFiles/EasyCL.dir/util/StatefulTimer.cpp.o"
-  "/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/util/easycl_stringhelper.cpp" "/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/build/EasyCL/src/EasyCL-external-build/CMakeFiles/EasyCL.dir/util/easycl_stringhelper.cpp.o"
+  "/home/eugene/project/b-dnn/EasyCL/CLKernel.cpp" "/home/eugene/project/b-dnn/build/EasyCL/src/EasyCL-external-build/CMakeFiles/EasyCL.dir/CLKernel.cpp.o"
+  "/home/eugene/project/b-dnn/EasyCL/CLWrapper.cpp" "/home/eugene/project/b-dnn/build/EasyCL/src/EasyCL-external-build/CMakeFiles/EasyCL.dir/CLWrapper.cpp.o"
+  "/home/eugene/project/b-dnn/EasyCL/DeviceInfo.cpp" "/home/eugene/project/b-dnn/build/EasyCL/src/EasyCL-external-build/CMakeFiles/EasyCL.dir/DeviceInfo.cpp.o"
+  "/home/eugene/project/b-dnn/EasyCL/DevicesInfo.cpp" "/home/eugene/project/b-dnn/build/EasyCL/src/EasyCL-external-build/CMakeFiles/EasyCL.dir/DevicesInfo.cpp.o"
+  "/home/eugene/project/b-dnn/EasyCL/EasyCL.cpp" "/home/eugene/project/b-dnn/build/EasyCL/src/EasyCL-external-build/CMakeFiles/EasyCL.dir/EasyCL.cpp.o"
+  "/home/eugene/project/b-dnn/EasyCL/deviceinfo_helper.cpp" "/home/eugene/project/b-dnn/build/EasyCL/src/EasyCL-external-build/CMakeFiles/EasyCL.dir/deviceinfo_helper.cpp.o"
+  "/home/eugene/project/b-dnn/EasyCL/platforminfo_helper.cpp" "/home/eugene/project/b-dnn/build/EasyCL/src/EasyCL-external-build/CMakeFiles/EasyCL.dir/platforminfo_helper.cpp.o"
+  "/home/eugene/project/b-dnn/EasyCL/templates/LuaTemplater.cpp" "/home/eugene/project/b-dnn/build/EasyCL/src/EasyCL-external-build/CMakeFiles/EasyCL.dir/templates/LuaTemplater.cpp.o"
+  "/home/eugene/project/b-dnn/EasyCL/templates/TemplatedKernel.cpp" "/home/eugene/project/b-dnn/build/EasyCL/src/EasyCL-external-build/CMakeFiles/EasyCL.dir/templates/TemplatedKernel.cpp.o"
+  "/home/eugene/project/b-dnn/EasyCL/util/StatefulTimer.cpp" "/home/eugene/project/b-dnn/build/EasyCL/src/EasyCL-external-build/CMakeFiles/EasyCL.dir/util/StatefulTimer.cpp.o"
+  "/home/eugene/project/b-dnn/EasyCL/util/easycl_stringhelper.cpp" "/home/eugene/project/b-dnn/build/EasyCL/src/EasyCL-external-build/CMakeFiles/EasyCL.dir/util/easycl_stringhelper.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "Clang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
@@ -27,12 +27,15 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL"
-  "/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/thirdparty/clew/include"
-  "/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/thirdparty/lua-5.1.5/src"
-  "/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/thirdparty/clew/include/proxy-opencl"
+  "/home/eugene/project/b-dnn/EasyCL"
+  "/home/eugene/project/b-dnn/EasyCL/thirdparty/clew/include"
+  "/home/eugene/project/b-dnn/EasyCL/thirdparty/lua-5.1.5/src"
+  "/home/eugene/project/b-dnn/EasyCL/thirdparty/clew/include/proxy-opencl"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
   )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

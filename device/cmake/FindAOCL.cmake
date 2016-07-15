@@ -27,11 +27,10 @@
 #
 #-----------------------
 
-find_path(AOCL_INCLUDE_DIR 
+find_path(AOCL_INCLUDE_DIRS
 		NAMES OpenCL/cl.h CL/cl.h
 		HINTS
-			${ATERAOCL_ROOT}/host/include
-			$ENV{ATERAAOCLSDKROOT}/include
+		$ENV{ALTERAOCLSDKROOT}/host/include
 			PATHS
 			/usr/include
 			/usr/local/include
@@ -44,7 +43,7 @@ find_path(AOCL_INCLUDE_DIR
 find_library(AOCL_LIBRARIES
 		NAMES OpenCL
 		HINTS
-			$ENV{ALTERAOCLSDKROOT}/linux64/lib
+		$ENV{ALTERAOCLSDKROOT}/linux64/lib
 		PATHS
 		DOC "OpenCL dynamic library path"
 		)

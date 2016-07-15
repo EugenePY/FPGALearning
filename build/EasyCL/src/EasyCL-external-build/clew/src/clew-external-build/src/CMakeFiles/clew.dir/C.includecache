@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/thirdparty/clew/include/clew.h
+/home/eugene/project/b-dnn/EasyCL/thirdparty/clew/include/clew.h
 AvailabilityMacros.h
 -
 stdint.h
@@ -30,9 +30,9 @@ intrin.h
 immintrin.h
 -
 
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/thirdparty/clew/src/clew.c
+/home/eugene/project/b-dnn/EasyCL/thirdparty/clew/src/clew.c
 clew.h
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/thirdparty/clew/src/clew.h
+/home/eugene/project/b-dnn/EasyCL/thirdparty/clew/src/clew.h
 windows.h
 -
 dlfcn.h

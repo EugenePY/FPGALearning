@@ -67,9 +67,7 @@ std::string getPlatformName(cl_platform_id pid);
 std::string getDeviceName(cl_device_id did);
 
 // Returns an array of device ids for the given platform and the
-// device type.
-// Return value must be freed with delete[].
-cl_device_id *getDevices(cl_platform_id pid, cl_device_type dev_type, cl_uint *num_devices);
+// device type.  // Return value must be freed with delete[].  cl_device_id *getDevices(cl_platform_id pid, cl_device_type dev_type, cl_uint *num_devices);
 
 // Create a OpenCL program from a binary file.
 // The program is created for all given devices associated with the context. The same

@@ -1,8 +1,8 @@
-# Install script for directory: /Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/thirdparty/clew/include
+# Install script for directory: /home/eugene/project/b-dnn/EasyCL/thirdparty/clew/include
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/dist")
+  set(CMAKE_INSTALL_PREFIX "/home/eugene/project/b-dnn/dist")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -27,15 +27,20 @@ if(NOT CMAKE_INSTALL_COMPONENT)
   endif()
 endif()
 
+# Install shared libraries without execute permission?
+if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
+  set(CMAKE_INSTALL_SO_NO_EXE "1")
+endif()
+
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/dist/include/clew.h")
+   "/home/eugene/project/b-dnn/dist/include/clew.h")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/dist/include" TYPE FILE PERMISSIONS OWNER_READ GROUP_READ WORLD_READ FILES "/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/thirdparty/clew/include/clew.h")
+file(INSTALL DESTINATION "/home/eugene/project/b-dnn/dist/include" TYPE FILE PERMISSIONS OWNER_READ GROUP_READ WORLD_READ FILES "/home/eugene/project/b-dnn/EasyCL/thirdparty/clew/include/clew.h")
 endif()
 

@@ -1,4 +1,10 @@
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/build/EasyCL/src/EasyCL-external-build/CMakeFiles/gpuinfo.dir
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/build/EasyCL/src/EasyCL-external-build/CMakeFiles/EasyCL.dir
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/build/EasyCL/src/EasyCL-external-build/CMakeFiles/clew_delete_stamp.dir
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/build/EasyCL/src/EasyCL-external-build/CMakeFiles/clew-external.dir
+/home/eugene/project/b-dnn/build/EasyCL/src/EasyCL-external-build/CMakeFiles/install.dir
+/home/eugene/project/b-dnn/build/EasyCL/src/EasyCL-external-build/CMakeFiles/list_install_components.dir
+/home/eugene/project/b-dnn/build/EasyCL/src/EasyCL-external-build/CMakeFiles/rebuild_cache.dir
+/home/eugene/project/b-dnn/build/EasyCL/src/EasyCL-external-build/CMakeFiles/edit_cache.dir
+/home/eugene/project/b-dnn/build/EasyCL/src/EasyCL-external-build/CMakeFiles/clew-external.dir
+/home/eugene/project/b-dnn/build/EasyCL/src/EasyCL-external-build/CMakeFiles/install/local.dir
+/home/eugene/project/b-dnn/build/EasyCL/src/EasyCL-external-build/CMakeFiles/install/strip.dir
+/home/eugene/project/b-dnn/build/EasyCL/src/EasyCL-external-build/CMakeFiles/clew_delete_stamp.dir
+/home/eugene/project/b-dnn/build/EasyCL/src/EasyCL-external-build/CMakeFiles/EasyCL.dir
+/home/eugene/project/b-dnn/build/EasyCL/src/EasyCL-external-build/CMakeFiles/gpuinfo.dir

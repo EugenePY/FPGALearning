@@ -1,8 +1,8 @@
-# Install script for directory: /Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/thirdparty/clew/src
+# Install script for directory: /home/eugene/project/b-dnn/EasyCL/thirdparty/clew/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/dist")
+  set(CMAKE_INSTALL_PREFIX "/home/eugene/project/b-dnn/dist")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -27,32 +27,50 @@ if(NOT CMAKE_INSTALL_COMPONENT)
   endif()
 endif()
 
+# Install shared libraries without execute permission?
+if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
+  set(CMAKE_INSTALL_SO_NO_EXE "1")
+endif()
+
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  foreach(file
+      "$ENV{DESTDIR}/home/eugene/project/b-dnn/dist/lib/libclew.so.1.0.0"
+      "$ENV{DESTDIR}/home/eugene/project/b-dnn/dist/lib/libclew.so.1"
+      "$ENV{DESTDIR}/home/eugene/project/b-dnn/dist/lib/libclew.so"
+      )
+    if(EXISTS "${file}" AND
+       NOT IS_SYMLINK "${file}")
+      file(RPATH_CHECK
+           FILE "${file}"
+           RPATH "/home/eugene/project/b-dnn/dist/lib")
+    endif()
+  endforeach()
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/dist/lib/libclew.1.0.0.dylib;/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/dist/lib/libclew.1.dylib;/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/dist/lib/libclew.dylib")
+   "/home/eugene/project/b-dnn/dist/lib/libclew.so.1.0.0;/home/eugene/project/b-dnn/dist/lib/libclew.so.1;/home/eugene/project/b-dnn/dist/lib/libclew.so")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/dist/lib" TYPE SHARED_LIBRARY FILES
-    "/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/build/EasyCL/src/EasyCL-external-build/clew/src/clew-external-build/src/libclew.1.0.0.dylib"
-    "/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/build/EasyCL/src/EasyCL-external-build/clew/src/clew-external-build/src/libclew.1.dylib"
-    "/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/build/EasyCL/src/EasyCL-external-build/clew/src/clew-external-build/src/libclew.dylib"
+file(INSTALL DESTINATION "/home/eugene/project/b-dnn/dist/lib" TYPE SHARED_LIBRARY FILES
+    "/home/eugene/project/b-dnn/build/EasyCL/src/EasyCL-external-build/clew/src/clew-external-build/src/libclew.so.1.0.0"
+    "/home/eugene/project/b-dnn/build/EasyCL/src/EasyCL-external-build/clew/src/clew-external-build/src/libclew.so.1"
+    "/home/eugene/project/b-dnn/build/EasyCL/src/EasyCL-external-build/clew/src/clew-external-build/src/libclew.so"
     )
   foreach(file
-      "$ENV{DESTDIR}/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/dist/lib/libclew.1.0.0.dylib"
-      "$ENV{DESTDIR}/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/dist/lib/libclew.1.dylib"
-      "$ENV{DESTDIR}/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/dist/lib/libclew.dylib"
+      "$ENV{DESTDIR}/home/eugene/project/b-dnn/dist/lib/libclew.so.1.0.0"
+      "$ENV{DESTDIR}/home/eugene/project/b-dnn/dist/lib/libclew.so.1"
+      "$ENV{DESTDIR}/home/eugene/project/b-dnn/dist/lib/libclew.so"
       )
     if(EXISTS "${file}" AND
        NOT IS_SYMLINK "${file}")
-      execute_process(COMMAND /usr/bin/install_name_tool
-        -add_rpath "/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/dist/lib"
-        "${file}")
+      file(RPATH_CHANGE
+           FILE "${file}"
+           OLD_RPATH ":::::::::::::::::::::::::::::::::::"
+           NEW_RPATH "/home/eugene/project/b-dnn/dist/lib")
       if(CMAKE_INSTALL_DO_STRIP)
-        execute_process(COMMAND "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip" "${file}")
+        execute_process(COMMAND "/usr/bin/strip" "${file}")
       endif()
     endif()
   endforeach()

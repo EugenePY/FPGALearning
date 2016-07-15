@@ -6,9 +6,39 @@
 
 #IncludeRegexTransform: 
 
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/test/tests.cpp
+/home/eugene/altera/16.0/hld/host/include/CL/cl.h
+OpenCL/cl_platform.h
+-
+CL/cl_platform.h
+-
+
+/home/eugene/altera/16.0/hld/host/include/CL/cl_platform.h
+AvailabilityMacros.h
+-
+stdint.h
+-
+stddef.h
+-
+altivec.h
+-
+intrin.h
+-
+xmmintrin.h
+-
+intrin.h
+-
+emmintrin.h
+-
+mmintrin.h
+-
+intrin.h
+-
+immintrin.h
+-
+
+/home/eugene/project/b-dnn/test/tests.cpp
 OpenCL/cl.h
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/test/OpenCL/cl.h
+-
 CL/cl.h
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/test/CL/cl.h
+-
 

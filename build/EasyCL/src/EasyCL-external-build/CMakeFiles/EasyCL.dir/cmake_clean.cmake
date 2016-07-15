@@ -11,7 +11,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/EasyCL.dir/templates/LuaTemplater.cpp.o"
   "CMakeFiles/EasyCL.dir/templates/TemplatedKernel.cpp.o"
   "libEasyCL.pdb"
-  "libEasyCL.dylib"
+  "libEasyCL.so"
 )
 
 # Per-language clean rules from dependency scanning.

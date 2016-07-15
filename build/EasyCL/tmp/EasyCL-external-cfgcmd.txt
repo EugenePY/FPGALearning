@@ -1,1 +1,1 @@
-cmd='/usr/local/Cellar/cmake/3.3.2/bin/cmake;-C/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/build/EasyCL/tmp/EasyCL-external-cache-$<CONFIG>.cmake;-GUnix Makefiles;/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL'
+cmd='/usr/bin/cmake;-C/home/eugene/project/b-dnn/build/EasyCL/tmp/EasyCL-external-cache-$<CONFIG>.cmake;-GUnix Makefiles;/home/eugene/project/b-dnn/EasyCL'

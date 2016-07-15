@@ -6,117 +6,117 @@
 
 #IncludeRegexTransform: 
 
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/CLArray.h
+/home/eugene/project/b-dnn/EasyCL/CLArray.h
 EasyCL_export.h
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/EasyCL_export.h
+/home/eugene/project/b-dnn/EasyCL/EasyCL_export.h
 
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/CLArrayFloat.h
+/home/eugene/project/b-dnn/EasyCL/CLArrayFloat.h
 stdexcept
 -
 EasyCL.h
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/EasyCL.h
+/home/eugene/project/b-dnn/EasyCL/EasyCL.h
 CLArray.h
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/CLArray.h
+/home/eugene/project/b-dnn/EasyCL/CLArray.h
 
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/CLArrayInt.h
+/home/eugene/project/b-dnn/EasyCL/CLArrayInt.h
 stdexcept
 -
 EasyCL.h
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/EasyCL.h
+/home/eugene/project/b-dnn/EasyCL/EasyCL.h
 CLArray.h
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/CLArray.h
+/home/eugene/project/b-dnn/EasyCL/CLArray.h
 
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/CLFloatWrapper.h
+/home/eugene/project/b-dnn/EasyCL/CLFloatWrapper.h
 stdexcept
 -
 EasyCL.h
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/EasyCL.h
+/home/eugene/project/b-dnn/EasyCL/EasyCL.h
 CLWrapper.h
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/CLWrapper.h
+/home/eugene/project/b-dnn/EasyCL/CLWrapper.h
 
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/CLFloatWrapperConst.h
+/home/eugene/project/b-dnn/EasyCL/CLFloatWrapperConst.h
 stdexcept
 -
 EasyCL.h
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/EasyCL.h
+/home/eugene/project/b-dnn/EasyCL/EasyCL.h
 CLWrapper.h
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/CLWrapper.h
+/home/eugene/project/b-dnn/EasyCL/CLWrapper.h
 
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/CLIntWrapper.h
+/home/eugene/project/b-dnn/EasyCL/CLIntWrapper.h
 stdexcept
 -
 CLWrapper.h
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/CLWrapper.h
+/home/eugene/project/b-dnn/EasyCL/CLWrapper.h
 
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/CLKernel.h
+/home/eugene/project/b-dnn/EasyCL/CLKernel.h
 CLArrayInt.h
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/CLArrayInt.h
+/home/eugene/project/b-dnn/EasyCL/CLArrayInt.h
 CLArrayFloat.h
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/CLArrayFloat.h
+/home/eugene/project/b-dnn/EasyCL/CLArrayFloat.h
 EasyCL_export.h
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/EasyCL_export.h
+/home/eugene/project/b-dnn/EasyCL/EasyCL_export.h
 mystdint.h
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/mystdint.h
+/home/eugene/project/b-dnn/EasyCL/mystdint.h
 
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/CLUCharWrapper.h
+/home/eugene/project/b-dnn/EasyCL/CLUCharWrapper.h
 stdexcept
 -
 EasyCL.h
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/EasyCL.h
+/home/eugene/project/b-dnn/EasyCL/EasyCL.h
 CLWrapper.h
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/CLWrapper.h
+/home/eugene/project/b-dnn/EasyCL/CLWrapper.h
 
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/CLWrapper.h
+/home/eugene/project/b-dnn/EasyCL/CLWrapper.h
 EasyCL_export.h
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/EasyCL_export.h
+/home/eugene/project/b-dnn/EasyCL/EasyCL_export.h
 
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/DeviceInfo.cpp
+/home/eugene/project/b-dnn/EasyCL/DeviceInfo.cpp
 clew.h
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/clew.h
+/home/eugene/project/b-dnn/EasyCL/clew.h
 OpenCL/cl.h
 -
 CL/cl.h
 -
 EasyCL.h
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/EasyCL.h
+/home/eugene/project/b-dnn/EasyCL/EasyCL.h
 DeviceInfo.h
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/DeviceInfo.h
+/home/eugene/project/b-dnn/EasyCL/DeviceInfo.h
 platforminfo_helper.h
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/platforminfo_helper.h
+/home/eugene/project/b-dnn/EasyCL/platforminfo_helper.h
 deviceinfo_helper.h
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/deviceinfo_helper.h
+/home/eugene/project/b-dnn/EasyCL/deviceinfo_helper.h
 
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/DeviceInfo.h
+/home/eugene/project/b-dnn/EasyCL/DeviceInfo.h
 string
 -
 DeviceInfo.h
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/DeviceInfo.h
+/home/eugene/project/b-dnn/EasyCL/DeviceInfo.h
 clew.h
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/clew.h
+/home/eugene/project/b-dnn/EasyCL/clew.h
 OpenCL/cl.h
 -
 CL/cl.h
 -
 EasyCL_export.h
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/EasyCL_export.h
+/home/eugene/project/b-dnn/EasyCL/EasyCL_export.h
 mystdint.h
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/mystdint.h
+/home/eugene/project/b-dnn/EasyCL/mystdint.h
 
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/DevicesInfo.h
+/home/eugene/project/b-dnn/EasyCL/DevicesInfo.h
 clew.h
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/clew.h
+/home/eugene/project/b-dnn/EasyCL/clew.h
 OpenCL/cl.h
 -
 CL/cl.h
 -
 DeviceInfo.h
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/DeviceInfo.h
+/home/eugene/project/b-dnn/EasyCL/DeviceInfo.h
 EasyCL_export.h
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/EasyCL_export.h
+/home/eugene/project/b-dnn/EasyCL/EasyCL_export.h
 
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/EasyCL.h
+/home/eugene/project/b-dnn/EasyCL/EasyCL.h
 clew.h
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/clew.h
+/home/eugene/project/b-dnn/EasyCL/clew.h
 OpenCL/cl.h
 -
 CL/cl.h
@@ -142,35 +142,35 @@ stdexcept
 map
 -
 deviceinfo_helper.h
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/deviceinfo_helper.h
+/home/eugene/project/b-dnn/EasyCL/deviceinfo_helper.h
 platforminfo_helper.h
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/platforminfo_helper.h
+/home/eugene/project/b-dnn/EasyCL/platforminfo_helper.h
 deprecated.h
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/deprecated.h
+/home/eugene/project/b-dnn/EasyCL/deprecated.h
 EasyCL_export.h
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/EasyCL_export.h
+/home/eugene/project/b-dnn/EasyCL/EasyCL_export.h
 CLIntWrapper.h
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/CLIntWrapper.h
+/home/eugene/project/b-dnn/EasyCL/CLIntWrapper.h
 CLFloatWrapper.h
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/CLFloatWrapper.h
+/home/eugene/project/b-dnn/EasyCL/CLFloatWrapper.h
 CLFloatWrapperConst.h
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/CLFloatWrapperConst.h
+/home/eugene/project/b-dnn/EasyCL/CLFloatWrapperConst.h
 CLUCharWrapper.h
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/CLUCharWrapper.h
+/home/eugene/project/b-dnn/EasyCL/CLUCharWrapper.h
 CLWrapper.h
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/CLWrapper.h
+/home/eugene/project/b-dnn/EasyCL/CLWrapper.h
 CLKernel.h
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/CLKernel.h
+/home/eugene/project/b-dnn/EasyCL/CLKernel.h
 DevicesInfo.h
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/DevicesInfo.h
+/home/eugene/project/b-dnn/EasyCL/DevicesInfo.h
 
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/EasyCL_export.h
+/home/eugene/project/b-dnn/EasyCL/EasyCL_export.h
 
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/deprecated.h
+/home/eugene/project/b-dnn/EasyCL/deprecated.h
 
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/deviceinfo_helper.cpp
+/home/eugene/project/b-dnn/EasyCL/deviceinfo_helper.cpp
 clew.h
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/clew.h
+/home/eugene/project/b-dnn/EasyCL/clew.h
 algorithm
 -
 string
@@ -178,25 +178,25 @@ string
 iostream
 -
 EasyCL.h
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/EasyCL.h
+/home/eugene/project/b-dnn/EasyCL/EasyCL.h
 deviceinfo_helper.h
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/deviceinfo_helper.h
+/home/eugene/project/b-dnn/EasyCL/deviceinfo_helper.h
 
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/deviceinfo_helper.h
+/home/eugene/project/b-dnn/EasyCL/deviceinfo_helper.h
 algorithm
 -
 string
 -
 clew.h
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/clew.h
+/home/eugene/project/b-dnn/EasyCL/clew.h
 OpenCL/cl.h
 -
 CL/cl.h
 -
 mystdint.h
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/mystdint.h
+/home/eugene/project/b-dnn/EasyCL/mystdint.h
 
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/gpuinfo.cpp
+/home/eugene/project/b-dnn/EasyCL/gpuinfo.cpp
 iostream
 -
 cassert
@@ -204,23 +204,23 @@ cassert
 cstdlib
 -
 clew.h
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/clew.h
+/home/eugene/project/b-dnn/EasyCL/clew.h
 OpenCL/cl.h
 -
 CL/cl.h
 -
 deviceinfo_helper.h
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/deviceinfo_helper.h
+/home/eugene/project/b-dnn/EasyCL/deviceinfo_helper.h
 platforminfo_helper.h
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/platforminfo_helper.h
+/home/eugene/project/b-dnn/EasyCL/platforminfo_helper.h
 
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/mystdint.h
+/home/eugene/project/b-dnn/EasyCL/mystdint.h
 cstdint
 -
 
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/platforminfo_helper.cpp
+/home/eugene/project/b-dnn/EasyCL/platforminfo_helper.cpp
 clew.h
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/clew.h
+/home/eugene/project/b-dnn/EasyCL/clew.h
 algorithm
 -
 string
@@ -230,23 +230,23 @@ iostream
 stdexcept
 -
 EasyCL.h
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/EasyCL.h
+/home/eugene/project/b-dnn/EasyCL/EasyCL.h
 platforminfo_helper.h
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/platforminfo_helper.h
+/home/eugene/project/b-dnn/EasyCL/platforminfo_helper.h
 
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/platforminfo_helper.h
+/home/eugene/project/b-dnn/EasyCL/platforminfo_helper.h
 algorithm
 -
 string
 -
 clew.h
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/clew.h
+/home/eugene/project/b-dnn/EasyCL/clew.h
 OpenCL/cl.h
 -
 CL/cl.h
 -
 
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/thirdparty/clew/include/clew.h
+/home/eugene/project/b-dnn/EasyCL/thirdparty/clew/include/clew.h
 AvailabilityMacros.h
 -
 stdint.h
@@ -270,11 +270,11 @@ intrin.h
 immintrin.h
 -
 
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/thirdparty/clew/include/proxy-opencl/CL/cl.h
+/home/eugene/project/b-dnn/EasyCL/thirdparty/clew/include/proxy-opencl/CL/cl.h
 clew.h
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/thirdparty/clew/include/proxy-opencl/CL/clew.h
+/home/eugene/project/b-dnn/EasyCL/thirdparty/clew/include/proxy-opencl/CL/clew.h
 
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/thirdparty/clew/include/proxy-opencl/OpenCL/cl.h
+/home/eugene/project/b-dnn/EasyCL/thirdparty/clew/include/proxy-opencl/OpenCL/cl.h
 clew.h
-/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/EasyCL/thirdparty/clew/include/proxy-opencl/OpenCL/clew.h
+/home/eugene/project/b-dnn/EasyCL/thirdparty/clew/include/proxy-opencl/OpenCL/clew.h
 

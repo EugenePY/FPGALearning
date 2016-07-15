@@ -39,7 +39,7 @@ add_subdirectory(device)
 #add_subdirectory(cmake)
 # setting library for each library has their build method build_<pakcage name>.cmake
 # set(CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake") Default is the subdirectory
-include("${CMAKE_CURRENT_SOURCE_DIR}/EasyCL/cmake/build_EasyCL.cmake")
+include("${CMAKE_CURRENT_SOURCE_DIR}/cmake/build_EasyCL.cmake")
 include_directories(${EASYCL_INCLUDE_DIRS})
 
 SET(CMAKE_CXX_FLAG "${CMAKE_CXX_FLAG} -std=c++11 -Wall")

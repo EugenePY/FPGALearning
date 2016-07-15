@@ -4,16 +4,19 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/device/opencl.cpp" "/Users/bigtreehouse/Documents/EmbededSys/fpga_dev/build/device/CMakeFiles/device.dir/opencl.cpp.o"
+  "/home/eugene/project/b-dnn/device/opencl.cpp" "/home/eugene/project/b-dnn/build/device/CMakeFiles/device.dir/opencl.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "Clang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/System/Library/Frameworks/OpenCL.framework"
+  "/home/eugene/altera/16.0/hld/host/include"
   "../device/include"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
   )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")
